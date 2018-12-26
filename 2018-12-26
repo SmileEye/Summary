@@ -1,2 +1,10 @@
-1. 关闭ALSR
+1. 
+解决无法关闭ALSR的问题：
 https://superuser.com/questions/127238/how-to-turn-off-aslr-in-ubuntu-9-10
+
+ALSR介绍：
+https://blog.csdn.net/Plus_RE/article/details/79199772
+
+开启完全ALSR：
+sudo bash -c "echo 2 > /proc/sys/kernel/randomize_va_space"
+
