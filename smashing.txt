@@ -1,0 +1,4 @@
+1. -fstack-protector-all 栈溢出检测
+https://blog.csdn.net/lhl_blog/article/details/70193865
+
+2. smashing.cpp
